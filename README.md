@@ -1,2 +1,2 @@
-Intructions
+Instructions
 ===================
