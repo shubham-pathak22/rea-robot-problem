@@ -1,4 +1,4 @@
-package com.rea.robot;
+package com.rea.robot.model;
 
 /**
  * A point representing a location in (x,y) coordinate space, specified in

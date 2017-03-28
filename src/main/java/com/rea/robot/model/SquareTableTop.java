@@ -1,4 +1,4 @@
-package com.rea.robot;
+package com.rea.robot.model;
 
 public class SquareTableTop implements TableTop
 {
@@ -14,10 +14,10 @@ public class SquareTableTop implements TableTop
 
   public boolean isValidPosition(Position position)
   {
-    if(position.getPoint().getX() < 0 || position.getPoint().getX() > this.length){
+    if (position.getPoint().getX() < 0 || position.getPoint().getX() > this.length) {
       return false;
     }
-    if(position.getPoint().getY() < 0 || position.getPoint().getY() > this.width){
+    if (position.getPoint().getY() < 0 || position.getPoint().getY() > this.width) {
       return false;
     }
     return true;

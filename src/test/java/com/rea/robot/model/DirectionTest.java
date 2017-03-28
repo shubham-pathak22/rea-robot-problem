@@ -1,4 +1,4 @@
-package com.rea.robot;
+package com.rea.robot.model;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -13,7 +13,7 @@ public class DirectionTest
 
     direction = direction.getCurrentDirection();
     Assert.assertEquals(direction, Direction.EAST);
-    
+
     direction = direction.leftDirection();
     Assert.assertEquals(direction, Direction.NORTH);
 
@@ -43,7 +43,7 @@ public class DirectionTest
 
     direction = direction.rightDirection();
     Assert.assertEquals(direction, Direction.EAST);
-    
+
     direction = direction.getCurrentDirection();
     Assert.assertEquals(direction, Direction.EAST);
   }

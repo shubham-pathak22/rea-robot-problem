@@ -1,4 +1,4 @@
-package com.rea.robot;
+package com.rea.robot.model;
 
 public class Position
 {
@@ -64,6 +64,11 @@ public class Position
 
   }
 
+  public void changeByPosition(Point point)
+  {
+    this.point.setLocation(this.getPoint().getX() + point.getX(), this.getPoint().getY() + point.getY());
+  }
+
   /**
    * Changes the current position of the object to given point keeping the
    * direction same
@@ -75,4 +80,5 @@ public class Position
   {
     this.point = point;
   }
+
 }

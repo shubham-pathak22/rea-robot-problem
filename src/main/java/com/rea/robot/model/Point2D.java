@@ -1,4 +1,4 @@
-package com.rea.robot;
+package com.rea.robot.model;
 
 public abstract class Point2D
 {
